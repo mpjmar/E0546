@@ -12,7 +12,7 @@ public class App {
 					System.out.print("Ahora introduzca la altura: ");
 					altura = Integer.parseInt(System.console().readLine());
 					correcto = anchura > 1 && altura > 1;
-					if (!correcto) System.out.println("Lo siento, los datos inteoducidos no son correctos, el valor mínimo para la anchura y la altura es 2.");
+					if (!correcto) System.out.println("Lo siento, los datos introducidos no son correctos, el valor mínimo para la anchura y la altura es 2.");
 				} while (!correcto);
 			}
 			catch(NumberFormatException e) {
