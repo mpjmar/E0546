@@ -24,9 +24,8 @@ public class App {
 		} while (!correcto);
 
 		for (int i = 1; i <= altura; i++) {
-			for (int j = 1; j <= anchura; j++) {
+			for (int j = 1; j <= anchura; j++)
 				System.out.print(i == 1 || i == altura || j == 1 || j == anchura ? "* " : "  ");
-			}
 			System.out.println();
 		}
 	}
